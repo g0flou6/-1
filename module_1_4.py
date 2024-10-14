@@ -1,0 +1,8 @@
+my_string = input('Как тебя зовут? ')
+print(len(my_string))
+print('Приветствую тебя,',my_string)
+print('Приветствую тебя,',my_string.upper())
+print('Приветствую тебя,',my_string.lower())
+print('Приветствую тебя,' + my_string.replace(' ', ''))
+print('Приветствую тебя,', my_string[0])
+print('Приветствую тебя,', my_string[-1])
