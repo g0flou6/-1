@@ -9,7 +9,7 @@ print(list(map(letter_equality, first, second)))
 def get_advanced_writer(file_name):
 
     def write_everything(*data_set):
-        write_data = ''.join(map(str, data_set))
+        write_data = '\n'.join(map(str, data_set))
         with open(file_name, 'a', encoding= 'utf-8') as file:
             file.write(write_data + '\n')
 
